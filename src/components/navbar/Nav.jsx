@@ -1,5 +1,6 @@
 
 
+import Icons from './icons/Icons';
 import './Nav.css'
 
 const Nav = () => {
@@ -15,8 +16,11 @@ const Nav = () => {
                     <li>Javascript</li>
                 </ul>
                 <button>DOWNLOAD NOW!</button>
+                <Icons/>
             </div>
-            <div className='rightnav'></div>
+            {/* <div className='rightnav'>
+                <Icons/>
+            </div> */}
         </div>
     )
 }

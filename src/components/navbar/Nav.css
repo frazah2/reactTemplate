@@ -3,7 +3,7 @@
     min-height: 80px;
     background: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .logo{
@@ -24,6 +24,8 @@ img{
   float: left;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 .middle ul li{
   float: left;
@@ -41,4 +43,29 @@ button{
   color: white;
   font-weight: 600;
   border: none;
+  margin-right: 40px;
+}
+.social_n{
+  width: 100%;
+  min-height: 100px;
+  float: left;
+  /* background: plum; */
+}
+
+.social_n ul{
+  padding: 0px;
+  margin: 0px auto;
+  display: flex;
+}
+
+.social_n ul li{
+  float: left;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nav_social{
+  color: #7ABAF7;
+
 }

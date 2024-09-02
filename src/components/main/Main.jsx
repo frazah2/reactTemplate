@@ -1,4 +1,5 @@
 import './Main.css'
+import MiddleIcons from './middleicons/MiddleIcons';
 
 const Maincontent = () => {
     return (
@@ -16,6 +17,7 @@ const Maincontent = () => {
                             <li>lmasg nasgr olha sgga jasgfsa </li>
                             <li>lmasg nasgr olha sgga jasgfsa </li>
                         </ul>
+                        <MiddleIcons/>
                     </div>
                 </div>
             </div>

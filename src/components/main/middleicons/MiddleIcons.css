@@ -1,0 +1,17 @@
+.main_social{
+    font-size: 40px;
+    
+}
+.main_icon ul{
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    padding: 0px;
+    margin: 0px auto;
+    display: flex;
+    padding-left: 0px;
+}
+.main_icon ul li{
+    float: left;
+    padding: 20px;
+}
