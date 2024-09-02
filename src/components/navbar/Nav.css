@@ -1,0 +1,44 @@
+.navi{
+    width: 100%;
+    min-height: 80px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    height: 80px;
+    float: left;
+}
+img{
+    width: 190px;
+    padding: 15px 30px;
+}
+.middle{
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+.middle ul{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.middle ul li{
+  float: left;
+  margin: 15px;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+button{
+  height: 40px;
+  width: 160px;
+  font-size: 13px;
+  background-color: rgb(117, 195, 244);
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
